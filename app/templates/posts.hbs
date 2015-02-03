@@ -1,0 +1,14 @@
+{{#link-to 'posts.new'}}
+  <h3>Create a post...</h3>
+{{/link-to}}
+
+{{#each post in model}}
+<div class="post">
+  {{#link-to 'post' post}}
+    <h2>{{post.title}}</h2>
+  {{/link-to}}  
+  <hr>
+</div>
+{{/each}}
+
+{{outlet}}

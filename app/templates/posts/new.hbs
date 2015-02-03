@@ -1,0 +1,9 @@
+<h1>New Post</h1>
+
+{{textarea placeholder="Add a title!" value=titleCopy}}
+<div class="textBox">
+  {{textarea placeholder="Add a post!" value=bodyCopy}}
+</div>
+<div class="createButton">
+  <button {{action 'newPost'}}>Save Post</button>
+</div>
