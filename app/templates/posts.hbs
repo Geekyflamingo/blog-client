@@ -1,14 +1,12 @@
-{{#link-to 'posts.new'}}
-  <h3>Create a post...</h3>
-{{/link-to}}
-
-{{#each post in model}}
-<div class="post">
-  {{#link-to 'post' post}}
-    <h2>{{post.title}}</h2>
-  {{/link-to}}  
-  <hr>
+<div class="posts-wrapper">
+  <aside>
+    <h2>Posts</h2>
+    {{input type="text" class="search" placeholder="Search Posts" value=search action="queryPost"}}
+    {{#each post in model}}
+      <h4>{{#link-to 'post' post}}{{post.title}}{{/link-to}}</h4>
+    {{/each}}
+  </aside>
+  <main>
+    {{outlet}}
+  </main>
 </div>
-{{/each}}
-
-{{outlet}}

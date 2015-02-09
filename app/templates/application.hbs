@@ -1,3 +1,10 @@
-<h2 id="title">Welcome to a blog!</h2>
+<header class="welcome">
+  <h1>A Big Fat Blog!</h1>
+</header>
+
+<nav>
+    <div class = "posts-link"> {{#link-to 'posts'}}Posts{{/link-to}} </div>
+    <div class = "new-posts-link">{{#link-to 'posts.new'}}New Post{{/link-to}}</div>
+</nav>
 
 {{outlet}}
