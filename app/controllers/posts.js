@@ -10,7 +10,7 @@ export default Ember.ArrayController.extend({
 
     queryPost: function() {
       var query = this.get('search');
-      this.transitionToRoute('posts.search', {queryParams: {term: query}});
+      this.transitionToRoute('posts.search', {queryParams: {query: query}});
     },
   }
 });

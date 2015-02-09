@@ -51,6 +51,14 @@ div.input-blog {
   font-size: 20px;
 }
 
+.new-post{
+  font-size: 30px;
+}
+.all-posts-h2{
+  border-bottom: 5px #E8E1EF solid;
+  font-size: 30px;
+}
+
 textarea {
   width: 100%;
   border-radius: 5px;

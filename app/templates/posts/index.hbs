@@ -1,0 +1,9 @@
+<h2 class = "all-posts-h2">All The Posts!</h2>
+<div class = "all-posts">
+{{#each post in model}}
+<div>
+  {{#link-to 'post' post}}<h2>{{post.title}}</h2>{{/link-to}}
+</div>
+{{/each}}
+</div>
+{{outlet}}
