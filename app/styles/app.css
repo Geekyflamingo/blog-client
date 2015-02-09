@@ -8,12 +8,12 @@ html, body {
   margin: 20px;
   width: 100%;
   background-color: #3F7CAC;
-  color: rgba(207,240,158, 1);
+  color: #FCF646;
   font-family: 'Simonetta', sans-serif;}
 
 header.welcome {
   text-align: center;
-  background: #5F7077;
+  background: #7C929B;
   width: 95%;
   font-size: 30px;
 }
@@ -21,7 +21,7 @@ header.welcome {
 aside {
   width: 15%;
   float: left;
-  background:  #5F7077;
+  background:  #7C929B;
   text-align: center;
   font-size: 18px;
 }
@@ -29,7 +29,7 @@ aside {
 main {
   width: 70%;
   float: left;
-  border-left: 1px solid rgba(11,72,107, 1);
+  border-left: 1px solid #E8E1EF;
   padding-left: 5%;
   padding-right: 10%;
   height: 100%;
@@ -37,7 +37,7 @@ main {
   margin-left: 5%;
 }
 div.post-show .title {
-  border-bottom: 5px #5F7077 solid;
+  border-bottom: 5px #E8E1EF solid;
   font-size: 30px;
 }
 div.input-blog {
@@ -69,8 +69,8 @@ textarea {
   padding-bottom: 30px;
   width: 15%;
   height: 20px;
-  background: #5F7077;
-  color: #E2F89C;
+  background: #7C929B;
+  color: #FCF646;
   text-align: center;
   font-size: 20px;
 }
@@ -81,14 +81,14 @@ textarea {
   padding-bottom: 30px;
   width: 15%;
   height: 20px;
-  background: #5F7077;
-  color: #E2F89C;
+  background: #7C929B;
+  color: #FCF646;
   text-align: center;
   font-size: 20px;
 }
 
 a {
-  color: #E2F89C;
+  color: #FCF646;
   text-decoration: none;
 }
 
