@@ -1,0 +1,12 @@
+<div class="posts-wrapper">
+  <aside>
+    <h2>Users</h2>
+    {{#each user in model}}
+    <h4>{{#link-to 'user' user}}{{user.firstName}}{{/link-to}}</h4>
+    {{/each}}
+  </aside>
+
+  <main>
+    {{outlet}}
+  </main>
+</div>

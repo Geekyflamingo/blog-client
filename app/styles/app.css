@@ -99,6 +99,19 @@ textarea {
   border-radius: 3px;
 }
 
+.users-link{
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 15%;
+    height: 20px;
+    background: #7C929B;
+    color: #FCF646;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
 a {
   color: #FCF646;
   text-decoration: none;
@@ -107,4 +120,28 @@ a {
 button > a {
   color: buttontext;
   text-decoration: none;
+}
+
+.quote-body {
+  border-left: 5px solid rgba(11,72,107, 1);
+  padding-left: 5%;
+  font-style: italic;
+  margin-left: 3%;
+}
+
+.flash-message {
+  text-align: center;
+}
+
+.flash_message-success {
+  padding-bottom: 20px;
+}
+
+.flash_message-fail {
+  border: 2px solid red;
+  padding-bottom: 20px;
+}
+
+.icon_wrapper {
+  visibility: hidden;
 }

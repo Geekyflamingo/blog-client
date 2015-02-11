@@ -3,6 +3,7 @@
 {{#each post in model}}
 <div>
   {{#link-to 'post' post}}<h2>{{post.title}}</h2>{{/link-to}}
+  <h4>By : {{post.user.firstName}}</h4>
 </div>
 {{/each}}
 </div>

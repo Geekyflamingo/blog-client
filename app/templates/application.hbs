@@ -5,6 +5,9 @@
 <nav>
     <div class = "posts-link"> {{#link-to 'posts'}}Posts{{/link-to}} </div>
     <div class = "new-posts-link">{{#link-to 'posts.new'}}New Post{{/link-to}}</div>
+    <div class = "users-link">{{#link-to 'users'}}Users{{/link-to}}</div>
 </nav>
-
+<div class="flash-message">
+  <h2>{{message-queue}}</h2>
+</div>
 {{outlet}}

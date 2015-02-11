@@ -5,7 +5,17 @@
 
 <div class="post-show">
   <h2 class="title">{{title}}</h2>
+  <h3>By : {{#link-to 'user' user}}{{user.firstName}}{{/link-to}}</h3>
   <p class= "post-body">{{body}}</p>
   <button>{{#link-to 'post.edit' this}}Edit Post{{/link-to}}</button>
   <button {{action 'deletePost' this}}>Delete Post</button>
+</div>
+
+<div class="comments">
+  {{#each comment in comments}}
+    <h3>{{#link-to 'user' comment.user}}{{comment.user.firstName}}{{/link-to}} commented:</h3>
+    <p class="quote-body">
+      "{{comment.body}}"
+    </p>
+  {{/each}}
 </div>
